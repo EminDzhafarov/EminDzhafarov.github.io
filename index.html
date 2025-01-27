@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Python Developer Services</title>
+  <title>Emin Dzhafarov — Python Developer Services</title>
   <style>
     body {
       margin: 0;
@@ -36,17 +36,31 @@
       margin-bottom: 1rem;
     }
 
-    .services-list {
+    .services-list,
+    .portfolio-list {
       list-style: none;
       padding: 0;
     }
 
-    .services-list li {
+    .services-list li,
+    .portfolio-list li {
       margin: 0.5rem 0;
       padding: 0.5rem;
       background: #ffffff;
       border-radius: 5px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .services-list li a,
+    .portfolio-list li a {
+      color: #343a40;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .services-list li a:hover,
+    .portfolio-list li a:hover {
+      text-decoration: underline;
     }
 
     .pay-button {
@@ -80,8 +94,28 @@
   <div class="container">
     <h2>About Me</h2>
     <p>
-      Hello! My name is <strong>Emin Dzhafarov</strong>. I am a freelance developer specializing in Python. I build web applications, websites, Telegram bots, and automation solutions to help businesses and individuals streamline their processes.
+      Hello! My name is <strong>Emin Dzhafarov</strong>. I am a Spanish freelance developer specializing in Python. 
+      I build web applications, websites, Telegram bots, and automation solutions to help businesses and individuals streamline their processes.
     </p>
+
+    <h2>Portfolio</h2>
+    <ul class="portfolio-list">
+      <li>
+        <a href="https://everlook.ae" target="_blank">everlook.ae</a> — Example of a business website with Python-based backend.
+      </li>
+      <li>
+        <a href="https://sinergiya-otvety.com" target="_blank">sinergiya-otvety.com</a> — Educational website with dynamic features.
+      </li>
+      <li>
+        <a href="http://teletoring.com" target="_blank">teletoring.com</a> — A project showcasing automated Telegram integrations.
+      </li>
+      <li>
+        <a href="https://t.me/aircourier_bot" target="_blank">@aircourier_bot</a> — Delivery of goods by air travelers (Telegram Bot).
+      </li>
+      <li>
+        <a href="https://t.me/vodiyua_helper_bot" target="_blank">@vodiyua_helper_bot</a> — Ukrainian driving school support bot (Telegram Bot).
+      </li>
+    </ul>
 
     <h2>Services</h2>
     <ul class="services-list">
@@ -96,7 +130,7 @@
       Interested in working together or want to learn more? Feel free to reach out at
       <a href="mailto:emin.djaf@gmail.com">emin.djaf@gmail.com</a>.
       <br /><br />
-<!--       To make a secure payment via Stripe, please click the button below. -->
+<!--       To make a secure payment via Stripe, please click the button below: -->
     </p>
 <!--     <a class="pay-button" href="#" target="_blank">
       Pay with Stripe
